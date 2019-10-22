@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: dev #使用本地属性文件
+
+server:
+  port: 7578 #服务配置 端口号
+
+# 安全认证的配置  
+security:
+  basic:
+    enabled: false
+#  user:  
+#    name: panda  # 用户名  
+#    password: ***   # 用户密码

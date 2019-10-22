@@ -1,0 +1,13 @@
+eureka:
+  profiles:
+    active: dev
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+server:
+  tomcat:
+    basedir: D:/tmp/eureka/
+logging:
+  config: classpath:logback-dev.xml

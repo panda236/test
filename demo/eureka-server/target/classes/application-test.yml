@@ -1,0 +1,16 @@
+eureka:
+  profiles:
+    active: test1
+  instance:
+    #hostname: BigDataServer16
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    #serviceUrl:
+      #defaultZone: http://BigDataServer17:7578/eureka/
+server:
+  tomcat:
+    basedir: /home/tmp/eureka/
+logging:
+  config: classpath:logback-prod.xml
