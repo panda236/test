@@ -38,7 +38,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<!-- 指定该Main Class为全局的唯一入口 -->
-					<mainClass>com.szmedi.eureka.EurekaApplication</mainClass>
+					<mainClass>com.pd.eureka.EurekaApplication</mainClass>
 					<layout>ZIP</layout>
 				</configuration>
 				<executions>
@@ -62,7 +62,7 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.szmedi</groupId>
+									<groupId>com.pd</groupId>
 									<artifactId>eureka-server</artifactId>
 									<version>0.0.1-SNAPSHOT</version>
 									<outputDirectory>E:\mvn_package\demo</outputDirectory>
